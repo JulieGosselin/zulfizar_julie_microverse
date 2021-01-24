@@ -1,0 +1,19 @@
+
+ .navbar{
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+ }​ 
+
+
+
+
+ @media screen (min-width: 600px) {
+    #media_test{
+        color:green;
+    }
+    .media_test{
+        color:green;
+    }
+  }
