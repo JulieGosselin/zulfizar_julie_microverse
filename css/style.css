@@ -1,19 +1,55 @@
 
- .navbar{
-    z-index: 10000;
-    position: fixed;
-    top: 0px;
-    width: 100%;
- }​ 
+.welcome-section {
+    height: 100%;
+}
 
+#welcome-section {
+    height: 100%;
+}
 
-
-
- @media screen (min-width: 600px) {
-    #media_test{
+@media (max-width: 600px) {
+    #h1{
+        color:red;
+    }
+    .h1{
+        color:red;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    #h1{
         color:green;
     }
-    .media_test{
+    .h1{
         color:green;
     }
   }
+  
+
+    
+  @media (min-width: 20px) {
+    .navbar{
+        z-index: 10000;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+     }​ 
+    
+     #navbar{
+        z-index: 10000;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+     }​ 
+    
+  }
+  
+  
+ 
+ 
+ 
+ 
+
+
+
+
